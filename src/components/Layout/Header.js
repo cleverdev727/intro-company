@@ -3,7 +3,7 @@ import Logo from "../../assets/imgs/logo.png";
 import Support from "../../assets/imgs/support.gif"
 import ArrowDown from "../../assets/imgs/arrow-down.png";
 import Menu from "../../assets/imgs/menu.png";
-import MobileMenu from "../MobileMenu";
+import MobileMenu from "../common/MobileMenu";
 import { Link } from "react-router-dom";
 
 const Header = () => {
