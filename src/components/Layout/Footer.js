@@ -35,16 +35,16 @@ const Footer = () => {
                 <Link className="font-normal text-base hover:text-white" to="/">Home</Link>
               </li>
               <li className="mb-[7px]">
-                <Link className="font-normal text-base hover:text-white" to="/">About Company</Link>
+                <Link className="font-normal text-base hover:text-white" to="/about">About Company</Link>
               </li>
               <li className="mb-[7px]">
-                <Link className="font-normal text-base hover:text-white" to="/">Chit Plans</Link>
+                <Link className="font-normal text-base hover:text-white" to="/plans">Chit Plans</Link>
               </li>
               <li className="mb-[7px]">
-                <Link className="font-normal text-base hover:text-white" to="/">Services</Link>
+                <Link className="font-normal text-base hover:text-white" to="/services">Services</Link>
               </li>
               <li>
-                <Link className="font-normal text-base hover:text-white" to="/">How it Works</Link>
+                <Link className="font-normal text-base hover:text-white" to="/how-it-works">How it Works</Link>
               </li>
             </ul>
           </div>
@@ -52,16 +52,16 @@ const Footer = () => {
             <h4 className="mb-[26px] font-bold text-xl text-white">QUICK LINKS</h4>
             <ul>
               <li className="mb-[7px]">
-                <Link className="font-normal text-base hover:text-white" to="/">Certificate</Link>
+                <Link className="font-normal text-base hover:text-white" to="/certificate">Certificate</Link>
               </li>
               <li className="mb-[7px]">
-                <Link className="font-normal text-base hover:text-white" to="/">Branches</Link>
+                <Link className="font-normal text-base hover:text-white" to="/branches">Branches</Link>
               </li>
               <li className="mb-[7px]">
-                <Link className="font-normal text-base hover:text-white" to="/">Career</Link>
+                <Link className="font-normal text-base hover:text-white" to="/career">Career</Link>
               </li>
               <li>
-                <Link className="font-normal text-base hover:text-white" to="/">Contact Us</Link>
+                <Link className="font-normal text-base hover:text-white" to="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>

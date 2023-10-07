@@ -10,6 +10,7 @@ module.exports = {
       },
       colors: {
         'secondary': '#A9A9AA',
+        'light-white': 'rgba(255,255,255,0.10)',
       }
     },
   },
