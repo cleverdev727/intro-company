@@ -153,25 +153,25 @@ const Home = () => {
             <div className="flex justify-center items-center w-20 h-20 bg-[#f7f7f7] rounded-full px-2 shrink-0">
               <img src={Door} alt="door" className="max-w-full" />
             </div>
-            <h4 class="font-semibold text-base">Door Step Collection</h4>
+            <h4 className="font-semibold text-base">Door Step Collection</h4>
           </div>
           <div className="relative flex justify-between px-2 items-center before:absolute before:bg-[#ededed] before:w-[3px] before:h-[100px] before:-top-[9px] before:right-0 before:rounded-sm">
             <div className="flex justify-center items-center w-20 h-20 bg-[#f7f7f7] rounded-full px-2 shrink-0">
               <img src={SMS} alt="sms" className="max-w-full" />
             </div>
-            <h4 class="font-semibold text-base">SMS Intimationn for every trasaction</h4>
+            <h4 className="font-semibold text-base">SMS Intimationn for every trasaction</h4>
           </div>
           <div className="relative flex justify-between px-2 items-center before:absolute before:bg-[#ededed] before:w-[3px] before:h-[100px] before:-top-[9px] before:right-0 before:rounded-sm">
             <div className="flex justify-center items-center w-20 h-20 bg-[#f7f7f7] rounded-full px-2 shrink-0">
               <img src={World} alt="world" className="max-w-full" />
             </div>
-            <h4 class="font-semibold text-base">Digitalizing Receipt</h4>
+            <h4 className="font-semibold text-base">Digitalizing Receipt</h4>
           </div>
           <div className="relative flex px-2 items-center">
             <div className="flex justify-center items-center w-20 h-20 bg-[#f7f7f7] rounded-full px-2 shrink-0 mr-4">
               <img src={Select} alt="world" className="max-w-full" />
             </div>
-            <h4 class="font-semibold text-base">E-Passbook</h4>
+            <h4 className="font-semibold text-base">E-Passbook</h4>
           </div>
         </div>
         <br />
@@ -184,7 +184,7 @@ const Home = () => {
           <h2 className="relative font-bold text-3xl text-white text-center before:absolute before:bg-info before:w-[100px] before:h-[2px] before:top-[50px] before:left-[45%] mb-[60px]">Why Kodachadri Chits</h2>
           <div className="flex justify-center">
             <div className="w-5/12 px-[15px]">
-              <iframe width="100%" height="340" src="https://www.youtube.com/embed/uGK-MdHFuLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" className="rounded-[25px]"></iframe>
+              <iframe width="100%" height="340" src="https://www.youtube.com/embed/uGK-MdHFuLE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="rounded-[25px]"></iframe>
             </div>
             <div className="w-5/12 px-[15px] font-semibold text-lg text-orange">
               <div className="flex items-center bg-white p-[10px] my-[5px] rounded-[5px]">
@@ -224,7 +224,7 @@ const Home = () => {
         </div>
       </div>
       <div className="max-w-[1200px] mx-auto py-[50px] px-[15px]">
-        <h2 class="relative font-bold text-3xl text-center before:absolute before:bg-info before:w-[100px] before:h-[2px] before:top-[50px] before:left-[45%] mb-[60px]">Our Media Partners</h2>
+        <h2 className="relative font-bold text-3xl text-center before:absolute before:bg-info before:w-[100px] before:h-[2px] before:top-[50px] before:left-[45%] mb-[60px]">Our Media Partners</h2>
         <Slider {...settings1}>
           <img src={Power} alt="power" />
           <img src={Tv5} alt="Tv5" />
@@ -243,7 +243,7 @@ const Home = () => {
       </div>
       <div className="bg-[#F4FAFF]">
         <div className="max-w-[1200px] mx-auto py-[60px] px-[15px]">
-          <h2 class="relative font-bold text-3xl text-center before:absolute before:bg-info before:w-[100px] before:h-[2px] before:top-[50px] before:left-[45%] mb-[60px]">Our Clients Says</h2>
+          <h2 className="relative font-bold text-3xl text-center before:absolute before:bg-info before:w-[100px] before:h-[2px] before:top-[50px] before:left-[45%] mb-[60px]">Our Clients Says</h2>
           <Slider {...settings2} className="mb-10">
             <div className="px-[15px]">
               <div className="bubble-tag relative p-10 pt-[35px] bg-white shadow-buble-content rounded-[10px] rounded-bl-none mb-[30px] before:absolute before:bg-white before:w-[30px] before:h-[30px] before:left-0 before:-bottom-7 before:shadow-buble-tag">
@@ -416,16 +416,16 @@ const Home = () => {
           </Slider>
           <div className="flex">
             <div className="w-1/2 px-[15px]">
-              <iframe width="100%" height="315" src="https://www.youtube.com/embed/M7UBz7uuuEA" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" className="rounded-[25px]"></iframe>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/M7UBz7uuuEA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="rounded-[25px]"></iframe>
             </div>
             <div className="w-1/2 px-[15px]">
-              <iframe width="100%" height="315" src="https://www.youtube.com/embed/-yA0bnxyClA" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" className="rounded-[25px]"></iframe>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/-yA0bnxyClA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="rounded-[25px]"></iframe>
             </div>
           </div>
         </div>
       </div>
       <div className="max-w-[1200px] mx-auto py-[100px] px-[15px]">
-        <h2 class="relative font-bold text-3xl text-center before:absolute before:bg-info before:w-[100px] before:h-[2px] before:top-[50px] before:left-[45%] mb-[60px]">Latest Blogs</h2>
+        <h2 className="relative font-bold text-3xl text-center before:absolute before:bg-info before:w-[100px] before:h-[2px] before:top-[50px] before:left-[45%] mb-[60px]">Latest Blogs</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="px-[15px]">
             <Blog imgUrl={BlogUser} heading="Digitally Empowering Customers: Kodachadri Chit Funds' Tech-Driven Initiatives" content="In an era dominated by technological advancements, businesses across industries are embracing digital transformation to enhance customer experiences." />

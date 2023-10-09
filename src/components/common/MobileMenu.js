@@ -71,8 +71,8 @@ const MobileMenu = ({isOpen, handleClose, className}) => {
         </div>
         <ul className="w-full font-medium text-base text-white">
           {
-            list.map(item => {
-              return <Menu data={item} />
+            list.map((item, i) => {
+              return <Menu data={item} key={i} />
             })
           }
         </ul>

@@ -22,9 +22,9 @@ const Menu = ({data}) => {
               </div>
               <ul className={`transition-all overflow-hidden ${isOpen ? 'max-h-40' : 'max-h-0'}`}>
                 {
-                  data.childs?.map(child => {
+                  data.childs?.map((child, i) => {
                     return (
-                      <li className="flex w-full h-[45px] items-center pl-12 border-t border-light-white">
+                      <li className="flex w-full h-[45px] items-center pl-12 border-t border-light-white" key={i}>
                         <Link to={child.link}>{ child.label }</Link>
                       </li>
                     )
