@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ArrowDown from "../assets/imgs/arrow-down.png";
+import ArrowDown from "../../assets/imgs/arrow-down.png";
 
 const Menu = ({data}) => {
   const [isOpen, setIsOpen] = useState(false);

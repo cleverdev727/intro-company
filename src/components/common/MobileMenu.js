@@ -1,6 +1,6 @@
 import React from "react";
-import Close from "../assets/imgs/close.png";
-import Logo from "../assets/imgs/logo.png";
+import Close from "../../assets/imgs/close.png";
+import Logo from "../../assets/imgs/logo.png";
 import Menu from "./Menu";
 import { Link } from "react-router-dom";
 
