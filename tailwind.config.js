@@ -8,6 +8,8 @@ module.exports = {
       backgroundImage: {
         'footer': "url(./assets/imgs/footer.jpg)",
         'dots': "url(./assets/imgs/dots.png)",
+        'linear': "url(./assets/imgs/shape-linear.png)",
+        'square-dot': "url(./assets/imgs/square-dots.png)",
       },
       colors: {
         'secondary': '#A9A9AA',
@@ -28,6 +30,20 @@ module.exports = {
         'buble-tag': '0 30px 40px rgb(0 0 0 / 15%)',
         'review-user': '0px 10px 30px 5px rgba(0, 0, 0, 0.15)',
         'blog': '0 0 40px rgba(0, 0, 0, 0.10)',
+      },
+      keyframes: {
+        'linear': {
+          '0%, 100%' : { transform: 'translateY(-20px)' },
+          '50%' : { transform: 'translateY(-10px)' }
+        },
+        'zoom-fade': {
+          '0%, 100%' : { transform: 'scale(0.9)' },
+          '50%' : { transform: 'scale(1)' }
+        }
+      },
+      animation: {
+        'linear': 'linear 2s linear infinite',
+        'zoom-fade': 'zoom-fade 5s linear infinite',
       }
     },
   },
