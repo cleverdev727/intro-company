@@ -27,7 +27,7 @@ const Header = () => {
         <ul className="hidden md:flex">
           <li className="group relative mx-7 cursor-pointer">
             <span className="flex h-full items-center font-medium text-[15px] hover:text-red-700">About Us</span>
-            <ul className="absolute w-[230px] py-[15px] mt-4 opacity-0 invisible group-hover:mt-0 group-hover:opacity-100 group-hover:visible font-semibold text-base whitespace-nowrap transition-all">
+            <ul className="absolute w-[230px] py-[15px] mt-4 opacity-0 invisible group-hover:mt-0 group-hover:opacity-100 group-hover:visible font-semibold text-base whitespace-nowrap transition-all bg-white">
               <li className="hover:text-red-700">
                 <Link to="/about" className="flex px-[30px] py-2">
                   About Company
@@ -47,7 +47,7 @@ const Header = () => {
           </li>
           <li className="group relative mx-7 cursor-pointer">
             <span className="flex h-full items-center font-medium text-[15px] hover:text-red-700">Chit Plans</span>
-            <ul className="absolute w-[230px] py-[15px] mt-4 opacity-0 invisible group-hover:mt-0 group-hover:opacity-100 group-hover:visible font-semibold text-base whitespace-nowrap transition-all">
+            <ul className="absolute w-[230px] py-[15px] mt-4 opacity-0 invisible group-hover:mt-0 group-hover:opacity-100 group-hover:visible font-semibold text-base whitespace-nowrap transition-all bg-white">
               <li className="hover:text-red-700">
                 <Link to="/plans" className="flex px-[30px] py-2">
                   Plans
@@ -72,7 +72,7 @@ const Header = () => {
           </li>
           <li className="group relative mx-7 cursor-pointer">
             <span className="flex h-full items-center font-medium text-[15px] hover:text-red-700">Contact Us</span>
-            <ul className="absolute w-[230px] py-[15px] mt-4 opacity-0 invisible group-hover:mt-0 group-hover:opacity-100 group-hover:visible font-semibold text-base whitespace-nowrap transition-all">
+            <ul className="absolute w-[230px] py-[15px] mt-4 opacity-0 invisible group-hover:mt-0 group-hover:opacity-100 group-hover:visible font-semibold text-base whitespace-nowrap transition-all bg-white">
               <li className="hover:text-red-700">
                 <Link to="/contact" className="flex px-[30px] py-2">
                   Contact Us
