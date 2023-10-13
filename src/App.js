@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Certificate from './pages/Certificate';
 import Management from './pages/Management';
+import Plans from './pages/Plans';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/certificate" element={<Certificate />} />
           <Route path="/management" element={<Management />} />
+          <Route path="/plans" element={<Plans />} />
         </Route>
       </Routes>
     </BrowserRouter>
