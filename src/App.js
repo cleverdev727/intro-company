@@ -7,6 +7,7 @@ import Certificate from './pages/Certificate';
 import Management from './pages/Management';
 import Plans from './pages/Plans';
 import Services from './pages/Services';
+import HowItWorks from './pages/HowItWorks';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/management" element={<Management />} />
           <Route path="/plans" element={<Plans />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
         </Route>
       </Routes>
     </BrowserRouter>
