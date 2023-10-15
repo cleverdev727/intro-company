@@ -8,6 +8,7 @@ import Management from './pages/Management';
 import Plans from './pages/Plans';
 import Services from './pages/Services';
 import HowItWorks from './pages/HowItWorks';
+import Branches from './pages/Branches';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/plans" element={<Plans />} />
           <Route path="/services" element={<Services />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/branches" element={<Branches />} />
         </Route>
       </Routes>
     </BrowserRouter>
