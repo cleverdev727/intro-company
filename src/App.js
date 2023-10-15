@@ -9,6 +9,7 @@ import Plans from './pages/Plans';
 import Services from './pages/Services';
 import HowItWorks from './pages/HowItWorks';
 import Branches from './pages/Branches';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/branches" element={<Branches />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
